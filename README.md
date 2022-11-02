@@ -7,8 +7,9 @@ conda create -n py38 python=3.8
 conda activate py38   
 ~~~
 
-2 Install pytorch >= 1.6.0, torchvision >= 0.7.0.
+2 Install additional packages
 ~~~
+pip install torch==1.10.1+cu111 torchvision==0.11.2+cu111 torchaudio==0.10.1 -f https://download.pytorch.org/whl/torch_stable.html
 conda install pytorch torchvision cudatoolkit=10.1 -c pytorch
 ~~~
 
